@@ -1,0 +1,43 @@
+/* Universal Styles */
+
+html {
+  font: 18px Helvetica;
+  line-height: 1.4em;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header Section */
+
+#navbar {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: cadetblue;
+  margin-top: 1rem;
+}
+
+#logo, nav {
+  padding: 1rem 2rem;
+}
+
+#logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+#logo img {
+  height: 1.5rem;
+}
+
+#logo span {
+  padding-left: 1rem;
+}
+
+nav span {
+  padding-left: 2rem;
+}
