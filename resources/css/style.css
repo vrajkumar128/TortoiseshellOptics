@@ -10,7 +10,18 @@ html {
   margin: 0 auto;
 }
 
-/* Header Section */
+/* Banner */
+
+header {
+  height: 30rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+}
+
+/* Navbar */
 
 #navbar {
   display: flex;
@@ -40,4 +51,25 @@ html {
 
 nav span {
   padding-left: 2rem;
+}
+
+/* Banner Overlay */
+
+#overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 10rem;
+  float: right;
+  background-color: white;
+  text-transform: uppercase;
+  margin-right: -2rem;
+}
+
+#overlay span {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2em;
+  padding: 1.5rem 5rem;
 }
