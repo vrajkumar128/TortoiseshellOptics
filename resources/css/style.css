@@ -52,6 +52,10 @@ nav span {
   padding-left: 2rem;
 }
 
+nav#mobile {
+  display: none;
+}
+
 /* Banner Overlay */
 
 #overlay {
@@ -165,5 +169,62 @@ footer .logo {
   }
   #business-info .container {
     justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo span {
+    display: none;
+  }
+  nav#desktop {
+    display: none;
+  }
+  nav#mobile {
+    display: flex;
+  }
+  header {
+    height: 17rem;
+  }
+  #overlay {
+    top: 9rem;
+    right: 0;
+    width: 100%;
+  }
+  #overlay span {
+    padding: 1rem 0;
+  }
+  #services .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem 0;
+  }
+  .service {
+    padding: 0;
+    justify-content: space-around;
+  }
+  .ruler {
+    padding: 1.54rem 0;
+  }
+  #business-info .container {
+    flex-direction: column;
+  }
+  .info {
+    width: 100%;
+    margin-right: 0;
+  }
+  .title {
+    max-width: 100%;
+    justify-content: center;
+  }
+  .info p {
+    font-size: 0.77rem;
+    margin-bottom: 4rem;
+  }
+  footer .container {
+    margin-top: 0;
+  }
+  footer .logo {
+    justify-content: center;
+    padding: 4rem 0;
   }
 }
